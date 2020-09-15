@@ -2649,6 +2649,11 @@
             "name": "QuotaUnit",
             "modelAsString": true
           }
+        },
+        "amlWorkspaceLocation": {
+          "readOnly": true,
+          "type": "string"
+          "description": "Region of the AML workspace in the resource ID.",
         }
       },
       "description": "The quota assigned to a resource."
